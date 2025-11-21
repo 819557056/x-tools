@@ -89,11 +89,12 @@ import { tool as xmlFormatter } from './xml-formatter';
 import { tool as yamlViewer } from './yaml-viewer';
 import { tool as certificateEncodingConverter } from './certificate-encoding-converter';
 import { tool as certificateParser } from './certificate-parser';
+import { tool as binaryViewer } from './binary-viewer';
 
 export const toolsByCategory: ToolCategory[] = [
   {
     name: 'Certificate',
-    components: [certificateEncodingConverter, certificateParser],
+    components: [certificateEncodingConverter, certificateParser, binaryViewer],
   },
   {
     name: 'Crypto',

@@ -404,6 +404,29 @@ tools:
     title: 证书解析器
     description: 解析和查看 ASN.1 编码数据，如 X.509 证书、PKCS#7/CMS 和 PKCS#8/PKCS#1 密钥等。
   
+  binary-viewer:
+    title: 二进制数据查看器
+    description: 上传二进制文件并以十六进制格式查看，支持地址偏移、十六进制字节和 ASCII 字符显示。
+    upload: 上传文件
+    uploadHint: 拖拽二进制文件到此处，或点击选择文件
+    output: 十六进制查看
+    bytesPerLine: 每行字节数
+    bytesPerLinePlaceholder: 默认 16 字节
+    startOffset: 起始偏移地址
+    startOffsetPlaceholder: 默认 0
+    copy: 复制
+    clear: 清空
+    about:
+      title: 关于二进制查看器
+      format: 显示格式
+      formatItem1: 左侧：地址偏移（8位十六进制，如 00819710）
+      formatItem2: 中间：十六进制字节（每个字节用两位十六进制表示，如 43 54 41 53）
+      formatItem3: 右侧：ASCII 字符（可打印字符显示原样，不可打印字符显示为 .）
+      usage: 使用说明
+      usageItem1: 支持上传任意二进制文件，如证书、密钥、可执行文件等
+      usageItem2: 可调整每行显示的字节数（8-32字节）
+      usageItem3: 可设置起始偏移地址，便于定位特定位置的数据
+  
   certificate-encoding-converter:
     title: 证书编码转换
     description: 转换证书编码格式，支持 PEM、Base64、DER 和 HEX 之间的互相转换，支持拖拽文件导入。
