@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  it-tools:
+    # 如果你想使用刚才本地构建的镜像，请取消注释下面这行 build，并注释掉 image 行
+    # build: . 
+    image: xcf/x-tools:latest
+    container_name: x-tools
+    restart: unless-stopped
+    ports:
+      - "8080:80"
