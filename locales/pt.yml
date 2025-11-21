@@ -1,0 +1,87 @@
+home:
+  categories:
+    newestTools: 'Novas ferramentas'
+    favoriteTools: 'Suas ferramentas favoritas'
+    allTools: 'Todas as ferramentas'
+    favoritesDndToolTip: 'Arraste e solte para reordenar favoritos'
+  subtitle: 'Ferraentas úteis para desenvolvedores'
+  toggleMenu: 'Menu'
+  home: 'Início'
+  uiLib: 'Biblioteca de UI'
+  support: 'Apoie o desenvolvimento do IT Tools'
+  buyMeACoffee: 'Pague-me um café'
+  follow:
+    title: 'Gostou do it-tools?'
+    p1: 'Dê uma estrela no'
+    githubRepository: 'repositório do IT-Tools no GitHub'
+    p2: 'ou siga nossa'
+    twitterXAccount: 'conta IT-Tools no X'
+    thankYou: 'Obrigado !'
+  nav:
+    github: 'Repositório no GitHub'
+    githubRepository: 'repositório do IT-Tools no GitHub'
+    twitterX: 'Conta no X'
+    twitterXAccount: 'conta do IT Tools no X'
+    about: 'Sobre o IT-Tools'
+    aboutLabel: 'Sobre'
+    darkMode: 'Modo Escuro'
+    lightMode: 'Modo Claro'
+    mode: 'Trocar modo escuro/claro'
+about:
+  content: >
+    # Sobre o X-Tools
+
+    [Este projeto](https://github.com/819557056/x-tools) é uma coleção de ferramentas de desenvolvimento secundário baseada em [IT-Tools](https://github.com/CorentinTh/it-tools).
+
+    ## Agradecimentos
+
+    Sinceros agradecimentos ao autor do projeto original [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about) e a todos os colaboradores que desenvolveram este excelente projeto com ❤. O IT-Tools junta ferramentas úteis para desenvolvedores e pessoas que trabalham com TI, fornecendo conveniência para inúmeros desenvolvedores.
+
+    Este projeto é código aberto sob a licença GPL-3.0, seguindo o protocolo de código aberto do projeto original. Se você achar útil, fique à vontade para compartilhar com seus amigos e não esqueça de salvar nos favoritos!
+
+    ## Informações do projeto original
+
+    - **Projeto original**: [https://github.com/CorentinTh/it-tools](https://github.com/CorentinTh/it-tools)
+    - **Autor original**: [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about)
+    - **Licença**: GPL-3.0
+
+    ## Tecnologias
+
+    Este projeto é feito em Vue.js (Vue 3) com a biblioteca de componentes Naive UI e é hospedado pela Vercel. Bibliotecas de código aberto de terceiros são usadas em algumas ferramentas e você pode encontrar a lista completa no arquivo [package.json](https://github.com/CorentinTh/it-tools/blob/main/package.json) do repositório.
+
+    ## Achou um bug? Está faltando uma ferramenta?
+
+    Se você precisa de uma ferramenta que ainda não existe aqui e acha que pode ser útil, seu pedido será bem vindo na [seção de issues](https://github.com/819557056/x-tools/issues/new/choose) no repositório do GitHub.
+
+    E se você encontrar um bug ou se algo não funcionar como esperado, por favor registre um relato de bug no repositório correspondente.
+
+404:
+  notFound: '404 Não Encontrado'
+  sorry: 'Desculpe, parece que essa página não existe'
+  maybe: 'Talvez o cache esteja fazendo bobagem, que tal tentar forçar a atualização?'
+  backHome: 'Voltar para o início'
+favoriteButton:
+  remove: 'Remover dos favoritos'
+  add: 'Adicionar aos favoritos'
+toolCard:
+  new: 'Novo'
+search:
+  label: 'Pesquisar'
+tools:
+  categories:
+    favorite-tools: 'Suas ferramentas favoritas'
+    crypto: 'Cripto'
+    certificate: 'Certificado'
+    converter: 'Conversores'
+    web: 'Web'
+    images and videos: 'Imagens & Vídeos'
+    development: 'Desenvolvimento'
+    network: 'Rede'
+    math: 'Matemática'
+    measurement: 'Medidas'
+    text: 'Texto'
+    data: 'Dados'
+
+  certificate-parser:
+    title: Analisador de certificados
+    description: Analisar e visualizar dados codificados ASN.1, como certificados X.509, PKCS#7/CMS e chaves PKCS#8/PKCS#1.

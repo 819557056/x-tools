@@ -1,0 +1,87 @@
+home:
+  categories:
+    newestTools: Найновіші інструменти
+    favoriteTools: 'Ваші улюблені інструменти'
+    allTools: 'Усі інструменти'
+    favoritesDndToolTip: 'Перетягніть і відпустіть, щоб змінити порядок улюблених'
+  subtitle: 'Зручні інструменти для розробників'
+  toggleMenu: 'Перемикання меню'
+  home: Головна
+  uiLib: 'UI Бібліотека'
+  support: 'Підтримка розробки IT Tools'
+  buyMeACoffee: 'Купи мені каву'
+  follow:
+    title: 'Вам подобаються інструменти IT?'
+    p1: 'Додайте нам зірку на'
+    githubRepository: 'GitHub-репозиторій IT-Tools'
+    p2: 'або слідкуйте за нами на'
+    twitterXAccount: 'X-акаунт IT-Tools'
+    thankYou: 'Дякуємо!'
+  nav:
+    github: 'GitHub-репозиторій'
+    githubRepository: 'GitHub-репозиторій IT-Tools'
+    twitterX: 'X'
+    twitterXAccount: 'X-акаунт IT-Tools'
+    about: 'Про IT-Tools'
+    aboutLabel: 'Про нас'
+    darkMode: 'Темний режим'
+    lightMode: 'Світлий режим'
+    mode: 'Перемикання темного/світлого режиму'
+about:
+  content: >
+    # Про X-Tools
+
+    [Цей проект](https://github.com/819557056/x-tools) є колекцією інструментів вторинної розробки на основі [IT-Tools](https://github.com/CorentinTh/it-tools).
+
+    ## Подяка
+
+    Щиро дякуємо автору оригінального проекту [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about) та всім учасникам, які розробили цей чудовий проект з ❤. IT-Tools агрегує корисні інструменти для розробників і людей, які працюють в сфері IT, надаючи зручність незліченним розробникам.
+
+    Цей проект є відкритим програмним забезпеченням під ліцензією GPL-3.0, дотримуючись протоколу відкритого програмного забезпечення оригінального проекту. Якщо вам це корисно, будь ласка, поділіться цим з вашими друзями і не забудьте додати до закладок!
+
+    ## Інформація про оригінальний проект
+
+    - **Оригінальний проект**: [https://github.com/CorentinTh/it-tools](https://github.com/CorentinTh/it-tools)
+    - **Оригінальний автор**: [Corentin Thomasset](https://corentin.tech?utm_source=it-tools&utm_medium=about)
+    - **Ліцензія**: GPL-3.0
+
+    ## Технології
+
+    Цей проект виконаний на Vue.js (Vue 3) з використанням бібліотеки компонентів Naive UI і розгортаний за допомогою Vercel. У деяких інструментах використовуються сторонні відкриті бібліотеки, повний список яких ви можете знайти в файлі [package.json](https://github.com/CorentinTh/it-tools/blob/main/package.json) репозиторію.
+
+    ## Знайшли баг? Відсутній інструмент?
+
+    Якщо вам потрібен інструмент, якого наразі немає тут, і ви вважаєте, що він може бути корисним, ви можете подати запит на додавання функції в [розділі проблем](https://github.com/819557056/x-tools/issues/new/choose) у репозиторії GitHub.
+
+    А якщо ви знайшли баг або щось не працює, як очікувалося, будь ласка, подайте звіт про баг у відповідному репозиторії.
+
+404:
+  notFound: '404 Сторінка не знайдена'
+  sorry: 'Вибачте, ця сторінка, схоже, не існує'
+  maybe: 'Можливо, кеш робить хитрощі, спробуйте примусово оновити сторінку?'
+  backHome: 'Повернутися на головну'
+favoriteButton:
+  remove: 'Вилучити з обраних'
+  add: 'Додати до обраних'
+toolCard:
+  new: Новий
+search:
+  label: Пошук
+tools:
+  categories:
+    favorite-tools: 'Ваші улюблені інструменти'
+    crypto: Крипта
+    certificate: Сертифікат
+    converter: Конвертер
+    web: Веб
+    images and videos: 'Зображення та відео'
+    development: Розробка
+    network: Мережа
+    math: Математика
+    measurement: Вимірювання
+    text: Текст
+    data: Дані
+
+  certificate-parser:
+    title: Парсер сертифікатів
+    description: Розбір і перегляд даних у форматі ASN.1, таких як сертифікати X.509, PKCS#7/CMS та ключі PKCS#8/PKCS#1.
