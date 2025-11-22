@@ -3015,6 +3015,28 @@ class Stream {
     return true;
   }
   parseStringISO(start, end, maxLength2) {
+    // 检测是否包含 UTF-8 多字节序列
+    let hasMultibyte = false;
+    for (let i = start; i < end; ++i) {
+      let byte = this.get(i);
+      // UTF-8 多字节字符的首字节 >= 0xC0 (192)
+      if (byte >= 192 && byte <= 247) {
+        hasMultibyte = true;
+        break;
+      }
+    }
+    
+    // 如果检测到可能的 UTF-8 多字节序列，尝试 UTF-8 解码
+    if (hasMultibyte) {
+      try {
+        let result = this.parseStringUTF(start, end, maxLength2);
+        return result;
+      } catch (e) {
+        // UTF-8 解码失败，继续使用 ISO-8859-1
+      }
+    }
+    
+    // 使用 ISO-8859-1 解码
     let s = "";
     for (let i = start; i < end; ++i)
       s += String.fromCharCode(this.get(i));

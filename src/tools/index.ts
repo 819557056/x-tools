@@ -89,16 +89,19 @@ import { tool as xmlFormatter } from './xml-formatter';
 import { tool as yamlViewer } from './yaml-viewer';
 import { tool as certificateEncodingConverter } from './certificate-encoding-converter';
 import { tool as certificateParser } from './certificate-parser';
+import { tool as certificateViewer } from './certificate-viewer';
 import { tool as binaryViewer } from './binary-viewer';
+import { tool as sm2Tool } from './sm2-tool';
+import { tool as sm4Tool } from './sm4-tool';
 
 export const toolsByCategory: ToolCategory[] = [
   {
     name: 'Certificate',
-    components: [certificateEncodingConverter, certificateParser, binaryViewer],
+    components: [certificateViewer, certificateEncodingConverter, certificateParser, binaryViewer, rsaKeyPairGenerator, sm2Tool, sm4Tool],
   },
   {
     name: 'Crypto',
-    components: [tokenGenerator, hashText, bcrypt, uuidGenerator, ulidGenerator, cypher, bip39, hmacGenerator, rsaKeyPairGenerator, passwordStrengthAnalyser, pdfSignatureChecker],
+    components: [tokenGenerator, hashText, bcrypt, uuidGenerator, ulidGenerator, cypher, bip39, hmacGenerator, passwordStrengthAnalyser, pdfSignatureChecker],
   },
   {
     name: 'Converter',

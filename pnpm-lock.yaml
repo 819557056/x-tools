@@ -170,6 +170,9 @@ importers:
       randexp:
         specifier: ^0.5.3
         version: 0.5.3
+      sm-crypto:
+        specifier: ^0.3.13
+        version: 0.3.13
       sql-formatter:
         specifier: ^13.0.0
         version: 13.1.0
@@ -4555,6 +4558,9 @@ packages:
   slash@4.0.0:
     resolution: {integrity: sha512-3dOsAHXXUkQTpOYcoAxLIorMTp4gIQr5IW3iVb7A7lFIp0VHhnynm9izx6TssdrIcVIESAlVjtnO2K8bg+Coew==}
     engines: {node: '>=12'}
+
+  sm-crypto@0.3.13:
+    resolution: {integrity: sha512-ztNF+pZq6viCPMA1A6KKu3bgpkmYti5avykRHbcFIdSipFdkVmfUw2CnpM2kBJyppIalqvczLNM3wR8OQ0pT5w==}
 
   smob@1.5.0:
     resolution: {integrity: sha512-g6T+p7QO8npa+/hNx9ohv1E5pVCmWrVCUzUXJyLdMmftX6ER0oiWY/w9knEonLpnOp6b6FenKnMfR8gqwWdwig==}
@@ -10256,6 +10262,10 @@ snapshots:
   slash@3.0.0: {}
 
   slash@4.0.0: {}
+
+  sm-crypto@0.3.13:
+    dependencies:
+      jsbn: 1.1.0
 
   smob@1.5.0: {}
 
